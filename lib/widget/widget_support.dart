@@ -27,4 +27,13 @@ class AppWidget {
       fontFamily: 'Rubik',
     );
   }
+
+   static TextStyle semiBoldTextFeildStyle() {
+    return TextStyle(
+      color: Colors.black,
+      fontSize: 18.0,
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Rubik',
+    );
+  }
 }
